@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hld_s_001",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a URL shortener like bit.ly. Focus on the core components, data model, and how you'd handle 100M URLs."
+  },
+  {
+    "id": "hld_s_002",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a notification system that needs to send push, email, and SMS to 10M users. How do you ensure delivery and avoid duplicates?"
+  },
+  {
+    "id": "hld_s_003",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a rate limiter that works across a distributed fleet of API servers. How do you keep counters in sync?"
+  },
+  {
+    "id": "hld_s_004",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a leaderboard for a gaming platform with 50M players. How would you efficiently compute and serve the top 100 in real time?"
+  },
+  {
+    "id": "hld_s_005",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a file storage service like Dropbox. How would you handle large file uploads, sync across devices, and deduplication?"
+  },
+  {
+    "id": "hld_s_006",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a chat application like WhatsApp. Focus on message delivery guarantees and how you'd handle offline users."
+  },
+  {
+    "id": "hld_s_007",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a search autocomplete system. How would you return suggestions in under 100ms for a billion queries per day?"
+  },
+  {
+    "id": "hld_s_008",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a payment system. How would you ensure exactly-once processing and handle failures mid-transaction?"
+  },
+  {
+    "id": "hld_s_009",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design Twitter's home timeline feed. How do you generate and serve a personalized feed for 500M users?"
+  },
+  {
+    "id": "hld_s_010",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Design a distributed job scheduler. How would you handle retries, deduplication, and priority queues at scale?"
+  }
+]

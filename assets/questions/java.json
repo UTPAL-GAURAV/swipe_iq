@@ -1,0 +1,560 @@
+[
+  {
+    "id": "java_001",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain the difference between HashMap and ConcurrentHashMap. When would you use one over the other?"
+  },
+  {
+    "id": "java_002",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between checked and unchecked exceptions in Java? Give examples of each."
+  },
+  {
+    "id": "java_003",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain how the Java memory model works — heap, stack, and metaspace. What goes where?"
+  },
+  {
+    "id": "java_004",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between synchronized methods and synchronized blocks? Which is preferable and why?"
+  },
+  {
+    "id": "java_005",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain Java's garbage collection. What are the different GC algorithms and when would you tune GC settings?"
+  },
+  {
+    "id": "java_006",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are functional interfaces in Java 8? Explain with examples of Predicate, Function, and Supplier."
+  },
+  {
+    "id": "java_007",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain the difference between Callable and Runnable. How does Future work with ExecutorService?"
+  },
+  {
+    "id": "java_008",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the volatile keyword in Java and how does it differ from synchronized?"
+  },
+  {
+    "id": "java_009",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain the concept of immutability in Java. How would you design an immutable class?"
+  },
+  {
+    "id": "java_010",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are streams in Java 8? Explain the difference between intermediate and terminal operations with examples."
+  },
+  {
+    "id": "java_011",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is compile-time and run-time polymorphism in Java? Explain with examples."
+  },
+  {
+    "id": "java_012",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a static block in Java? Does it run before or after main()? Why would we need a static block?"
+  },
+  {
+    "id": "java_013",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the use of the final keyword with a method and a class in Java?"
+  },
+  {
+    "id": "java_014",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why is it not advised to use a return statement inside a finally block in Java?"
+  },
+  {
+    "id": "java_015",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between ArrayList and LinkedList in Java? In which scenarios would you use either one?"
+  },
+  {
+    "id": "java_016",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a Marker interface in Java? Give examples and explain its purpose."
+  },
+  {
+    "id": "java_017",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between Comparable and Comparator in Java? When would you use each?"
+  },
+  {
+    "id": "java_018",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are default methods in interfaces? Why did Java introduce private methods in interfaces?"
+  },
+  {
+    "id": "java_019",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a variable argument (varargs) in Java? How and when would you use it?"
+  },
+  {
+    "id": "java_020",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is LinkedHashSet in Java? How does it differ from HashSet and TreeSet?"
+  },
+  {
+    "id": "java_021",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Apart from the security aspect, what are the reasons behind making strings immutable in Java?"
+  },
+  {
+    "id": "java_022",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a singleton class in Java? How do you implement a singleton class?"
+  },
+  {
+    "id": "java_023",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How would you differentiate between a String, StringBuffer, and a StringBuilder in Java?"
+  },
+  {
+    "id": "java_024",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Using relevant properties, highlight the differences between interfaces and abstract classes in Java."
+  },
+  {
+    "id": "java_025",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "In Java, static as well as private method overriding is possible. Comment on this statement."
+  },
+  {
+    "id": "java_026",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What makes a HashSet different from a TreeSet in Java?"
+  },
+  {
+    "id": "java_027",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why is a character array preferred over String for storing confidential information in Java?"
+  },
+  {
+    "id": "java_028",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are the differences between JVM, JRE, and JDK in Java?"
+  },
+  {
+    "id": "java_029",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the importance of reflection in Java?"
+  },
+  {
+    "id": "java_030",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are the different ways of using threads in Java?"
+  },
+  {
+    "id": "java_031",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are the different types of thread priorities in Java? What is the default priority of a thread assigned by JVM?"
+  },
+  {
+    "id": "java_032",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between a program and a process in Java?"
+  },
+  {
+    "id": "java_033",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between the 'throw' and 'throws' keywords in Java?"
+  },
+  {
+    "id": "java_034",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are the differences between a constructor and a method of a class in Java?"
+  },
+  {
+    "id": "java_035",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Does Java work as 'pass by value' or 'pass by reference'? Explain."
+  },
+  {
+    "id": "java_036",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the 'IS-A' relationship in OOPs Java?"
+  },
+  {
+    "id": "java_037",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Which among String or StringBuffer should be preferred when there are a lot of updates required to be done on the data?"
+  },
+  {
+    "id": "java_038",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How do you prevent serialization of attributes of a class in Java?"
+  },
+  {
+    "id": "java_039",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What happens if the static modifier is not included in the main method signature in Java?"
+  },
+  {
+    "id": "java_040",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can we make the main() thread a daemon thread in Java?"
+  },
+  {
+    "id": "java_041",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What happens if there are multiple main methods inside one class in Java?"
+  },
+  {
+    "id": "java_042",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What do you understand by object cloning in Java and how is it achieved?"
+  },
+  {
+    "id": "java_043",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How does an exception propagate in the code in Java?"
+  },
+  {
+    "id": "java_044",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How do exceptions affect the program if they are not handled?"
+  },
+  {
+    "id": "java_045",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Is it mandatory for a catch block to be present after a try block in Java?"
+  },
+  {
+    "id": "java_046",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Will the finally block get executed when a return statement is written at the end of the try block and catch block?"
+  },
+  {
+    "id": "java_047",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can you call a constructor of a class inside another constructor in Java?"
+  },
+  {
+    "id": "java_048",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain."
+  },
+  {
+    "id": "java_049",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why does the Java array index start with 0?"
+  },
+  {
+    "id": "java_050",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why is the remove method faster in LinkedList than in an array?"
+  },
+  {
+    "id": "java_051",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How does the size of ArrayList grow dynamically? How is it implemented internally?"
+  },
+  {
+    "id": "java_052",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How many overloaded add() and addAll() methods are available in the List interface? Describe their need and uses."
+  },
+  {
+    "id": "java_053",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What do you understand by an instance variable and a local variable in Java?"
+  },
+  {
+    "id": "java_054",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are the default values assigned to variables and instances in Java?"
+  },
+  {
+    "id": "java_055",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What do you mean by data encapsulation in Java?"
+  },
+  {
+    "id": "java_056",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Tell us about the JIT compiler in Java."
+  },
+  {
+    "id": "java_057",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can you tell the difference between the equals() method and the equality operator (==) in Java?"
+  },
+  {
+    "id": "java_058",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Briefly explain the concept of constructor overloading in Java."
+  },
+  {
+    "id": "java_059",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a copy constructor in Java?"
+  },
+  {
+    "id": "java_060",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can the main method be overloaded in Java?"
+  },
+  {
+    "id": "java_061",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Comment on method overloading and overriding in Java by citing relevant examples."
+  },
+  {
+    "id": "java_062",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "A single try block and multiple catch blocks can co-exist in a Java program. Explain."
+  },
+  {
+    "id": "java_063",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Do final, finally, and finalize keywords have the same function in Java?"
+  },
+  {
+    "id": "java_064",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Is it possible that the finally block will not be executed? If yes, list the cases."
+  },
+  {
+    "id": "java_065",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "When can you use the super keyword in Java?"
+  },
+  {
+    "id": "java_066",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can static methods be overloaded in Java?"
+  },
+  {
+    "id": "java_067",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why is the main method static in Java?"
+  },
+  {
+    "id": "java_068",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can static methods be overridden in Java?"
+  },
+  {
+    "id": "java_069",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between static methods, static variables, and static classes in Java?"
+  },
+  {
+    "id": "java_070",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the main objective of garbage collection in Java?"
+  },
+  {
+    "id": "java_071",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is a ClassLoader in Java?"
+  },
+  {
+    "id": "java_072",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What part of memory — Stack or Heap — is cleaned in the garbage collection process in Java?"
+  },
+  {
+    "id": "java_073",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are shallow copy and deep copy in Java?"
+  },
+  {
+    "id": "java_074",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is abstraction in Java? How is it achieved, and why is it important in OOP design?"
+  },
+  {
+    "id": "java_075",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is an interface in Java? How does it differ from an abstract class, and when would you choose one over the other?"
+  },
+  {
+    "id": "java_076",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What Java 8 features were added to interfaces? Explain default methods, static methods, and private methods in interfaces with use cases."
+  },
+  {
+    "id": "java_077",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is String in Java? How is it stored in memory, and what is the String pool?"
+  },
+  {
+    "id": "java_078",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain inheritance in Java. What are the different types of inheritance, and why does Java not support multiple inheritance through classes?"
+  },
+  {
+    "id": "java_079",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are Java Collections? Explain the Java Collection Framework — its hierarchy, key interfaces, and when to use each."
+  },
+  {
+    "id": "java_080",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain the internal working of a HashMap in Java. How does it handle hash collisions, and what happens during rehashing?"
+  },
+  {
+    "id": "java_081",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the contract between equals() and hashCode() in Java? In which scenarios would you need to override equals()?"
+  },
+  {
+    "id": "java_082",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the use of serialization in Java? When would you use it, and what are its limitations?"
+  },
+  {
+    "id": "java_083",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "In a Java interface, when would you create a static method instead of a default method? What are the key differences in behavior and use cases?"
+  },
+  {
+    "id": "java_084",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Can we define a functional interface without any abstract method? What exactly makes an interface a functional interface in Java?"
+  },
+  {
+    "id": "java_085",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Why does a functional interface allow only one abstract method? What would happen if it had two or more abstract methods?"
+  },
+  {
+    "id": "java_086",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is TreeSet in Java? How does it maintain sorted order, and what are the requirements for elements stored in it?"
+  },
+  {
+    "id": "java_087",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are generics in Java? Why were they introduced, and how do they provide type safety at compile time?"
+  },
+  {
+    "id": "java_088",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is an Iterator in Java? How does it differ from a for-each loop, and when would you explicitly use an Iterator?"
+  },
+  {
+    "id": "java_089",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "Explain the concept of multithreading in Java. What problem does it solve, and what are the challenges it introduces?"
+  },
+  {
+    "id": "java_090",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the difference between an Error and an Exception in Java? Give examples of each and explain how JVM handles them."
+  },
+  {
+    "id": "java_091",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "How does the JVM handle an exception? Walk through the exception handling mechanism from throw to catch, including stack unwinding."
+  },
+  {
+    "id": "java_092",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What are atomic classes in Java (java.util.concurrent.atomic)? How do they differ from volatile, and when would you use AtomicInteger over synchronized?"
+  },
+  {
+    "id": "java_093",
+    "subject": "Java",
+    "level": "SDE-2",
+    "question": "What is the Predicate functional interface in Java? How does it work, and how do you combine multiple predicates using and(), or(), and negate()?"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hld_c_001",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Explain CAP theorem. Can you have consistency, availability, and partition tolerance all at once?"
+  },
+  {
+    "id": "hld_c_002",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is consistent hashing? Why is it used in distributed systems like load balancers and caches?"
+  },
+  {
+    "id": "hld_c_003",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Explain the difference between horizontal and vertical scaling. What are the tradeoffs?"
+  },
+  {
+    "id": "hld_c_004",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a message queue? Compare Kafka and RabbitMQ — when would you choose one over the other?"
+  },
+  {
+    "id": "hld_c_005",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Explain different caching strategies: write-through, write-behind, and cache-aside. When would you use each?"
+  },
+  {
+    "id": "hld_c_006",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between SQL and NoSQL databases? How do you decide which to use for a given system?"
+  },
+  {
+    "id": "hld_c_007",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Explain database sharding. What are the strategies for choosing a shard key and what problems can it cause?"
+  },
+  {
+    "id": "hld_c_008",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a CDN and how does it work? What types of content benefit most from CDN caching?"
+  },
+  {
+    "id": "hld_c_009",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Explain rate limiting. What are the common algorithms — token bucket, leaky bucket, fixed window, sliding window?"
+  },
+  {
+    "id": "hld_c_010",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is eventual consistency? Give a real-world example where it is acceptable vs where it is not."
+  }
+]

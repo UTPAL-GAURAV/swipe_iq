@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sb_001",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Explain the difference between @Component, @Service, @Repository, and @Controller. Are they interchangeable?"
+  },
+  {
+    "id": "sb_002",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How does Spring Boot auto-configuration work? What happens when you add a starter dependency?"
+  },
+  {
+    "id": "sb_003",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Explain the difference between @Transactional propagation levels — REQUIRED, REQUIRES_NEW, and NESTED."
+  },
+  {
+    "id": "sb_004",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the difference between constructor injection, setter injection, and field injection? Which is recommended and why?"
+  },
+  {
+    "id": "sb_005",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How would you handle exceptions globally in a Spring Boot REST API? Explain @ControllerAdvice and @ExceptionHandler."
+  },
+  {
+    "id": "sb_006",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Explain Spring Security's filter chain. How would you implement JWT-based authentication?"
+  },
+  {
+    "id": "sb_007",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the N+1 query problem in JPA/Hibernate? How do you detect and fix it?"
+  },
+  {
+    "id": "sb_008",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What are Spring Boot Actuator endpoints? Which ones would you expose in production and why?"
+  },
+  {
+    "id": "sb_009",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Explain the difference between @RestController and @Controller. When would you use @ResponseBody?"
+  },
+  {
+    "id": "sb_010",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How does Spring Boot handle application properties? Explain profiles and how you'd manage config across environments."
+  },
+  {
+    "id": "sb_011",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "A @Transactional method calls another @Transactional method in the same class. The inner method throws RuntimeException. Does the outer transaction roll back? Why?"
+  },
+  {
+    "id": "sb_012",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Design a REST API for a social feed that returns 20 posts with the top 3 comments each. How do you model the database and what does the response look like?"
+  }
+]

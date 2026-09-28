@@ -1,0 +1,30 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Provide flutter build properties to plugin subprojects (e.g. record_android)
+// that reference flutter.compileSdkVersion without applying the Flutter Gradle plugin.
+// Must exclude ':app', which uses the real Flutter extension registered by
+// dev.flutter.flutter-gradle-plugin — ext.flutter would shadow that extension.
+subprojects { proj ->
+    if (proj.name != 'app') {
+        proj.ext {
+            flutter = [compileSdkVersion: 34, minSdkVersion: 21, targetSdkVersion: 34]
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

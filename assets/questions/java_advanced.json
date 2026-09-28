@@ -1,0 +1,230 @@
+[
+  {
+    "id": "java_adv_001",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Although inheritance is a popular OOPs concept, it is less advantageous than composition. Explain."
+  },
+  {
+    "id": "java_adv_002",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What is the difference between '>>' and '>>>' operators in Java?"
+  },
+  {
+    "id": "java_adv_003",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What are Composition and Aggregation in Java? State the difference."
+  },
+  {
+    "id": "java_adv_004",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "How is the creation of a String using new() different from that of a literal in Java?"
+  },
+  {
+    "id": "java_adv_005",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "How is the 'new' operator different from the 'newInstance()' operator in Java?"
+  },
+  {
+    "id": "java_adv_006",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Is exceeding the memory limit possible in a program despite having a garbage collector in Java?"
+  },
+  {
+    "id": "java_adv_007",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Why is synchronization necessary in Java? Explain with the help of a relevant example."
+  },
+  {
+    "id": "java_adv_008",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What is the significance of '...' (varargs) in Java code?"
+  },
+  {
+    "id": "java_adv_009",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Can you explain the Java thread lifecycle?"
+  },
+  {
+    "id": "java_adv_010",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What could be the tradeoff between the usage of an unordered array versus the usage of an ordered array in Java?"
+  },
+  {
+    "id": "java_adv_011",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Is it possible to import the same class or package twice in Java and what happens to it during runtime?"
+  },
+  {
+    "id": "java_adv_012",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "In case a package has sub packages, will it suffice to import only the main package? For example, does importing com.myMainPackage.* also import com.myMainPackage.mySubPackage.*?"
+  },
+  {
+    "id": "java_adv_013",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Will the finally block be executed if System.exit(0) is written at the end of the try block?"
+  },
+  {
+    "id": "java_adv_014",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Explain the term 'Double Brace Initialisation' in Java."
+  },
+  {
+    "id": "java_adv_015",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Why is it said that the length() method of the String class doesn't return accurate results?"
+  },
+  {
+    "id": "java_adv_016",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What are the possible ways of making an object eligible for garbage collection (GC) in Java?"
+  },
+  {
+    "id": "java_adv_017",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Assume a thread has a lock on it — will calling the sleep() method on that thread release the lock?"
+  },
+  {
+    "id": "java_adv_018",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What is a Memory Leak in Java? Discuss some common causes of it."
+  },
+  {
+    "id": "java_adv_019",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What are the different categories of Java Design Patterns?"
+  },
+  {
+    "id": "java_adv_020",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "How can we set the Spring bean scope and what supported scopes does it have?"
+  },
+  {
+    "id": "java_adv_021",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "What is the best way to inject dependency in Java/Spring? Also state the reason."
+  },
+  {
+    "id": "java_adv_022",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Your read-heavy service needs a thread-safe map. HashMap, Hashtable, or ConcurrentHashMap — which and why?"
+  },
+  {
+    "id": "java_adv_023",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "You have Shape with Circle and Rectangle. describe() prints 'I am a [shape] with area [X]' — same for all shapes. area() differs per shape. Would you use an interface, abstract class, or both? Why?"
+  },
+  {
+    "id": "java_adv_024",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "A junior dev wraps an entire method in catch(Exception e){ e.printStackTrace(); }. The method throws IOException and JsonParseException. What is wrong and how do you fix it?"
+  },
+  {
+    "id": "java_adv_025",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Two threads hit an uninitialized singleton simultaneously. How do you implement a singleton safely in Java to handle this?"
+  },
+  {
+    "id": "java_adv_026",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Your production service throws OutOfMemoryError: Java heap space under load. What are your first three diagnostic steps?"
+  },
+  {
+    "id": "java_adv_027",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Why is volatile non-negotiable in double-checked locking, even though synchronized already protects the write?"
+  },
+  {
+    "id": "java_adv_028",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "A class-level HashMap in a Spring @Service causes data corruption under load. What is wrong and what is the correct fix?"
+  },
+  {
+    "id": "java_adv_029",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Production is throwing OutOfMemoryError. A teammate says to increase -Xmx. What is the right approach and why?"
+  },
+  {
+    "id": "java_adv_030",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Three independent database calls are running sequentially with await. What is wrong and how do you fix it using CompletableFuture?"
+  },
+  {
+    "id": "java_adv_031",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "FlyingZoo calls fly() on all Animals including Penguin, which throws UnsupportedOperationException. What SOLID principle is violated and what is the correct fix?"
+  },
+  {
+    "id": "java_adv_032",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "You have a PaymentProcessor class with a process() method. A teammate suggests making it static so subclasses don't need to instantiate the parent. What breaks, and how do you fix it?"
+  },
+  {
+    "id": "java_adv_033",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Your service builds a JSON string by concatenating fields in a loop over 10,000 records. A code review flags it as a performance issue. What is wrong and how do you fix it?"
+  },
+  {
+    "id": "java_adv_034",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Your checkout service needs to call inventory check, payment auth, and fraud detection in parallel and wait for all three. How do you implement this with CompletableFuture?"
+  },
+  {
+    "id": "java_adv_035",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "You add Order objects to a HashSet to deduplicate by orderId, but it keeps both objects. What is wrong and how do you fix it?"
+  },
+  {
+    "id": "java_adv_036",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Employee has a natural sort by id, but you also need to sort a list by salary descending. How do you implement both using Comparable and Comparator?"
+  },
+  {
+    "id": "java_adv_037",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "Why must equals() accept Object instead of a specific type like Employee? And is the check 'if (this == o) return true' necessary?"
+  },
+  {
+    "id": "java_adv_038",
+    "subject": "Java Advanced",
+    "level": "SDE-2",
+    "question": "When should you NOT use a Java record, and why?"
+  }
+]
