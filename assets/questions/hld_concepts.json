@@ -58,5 +58,350 @@
     "subject": "HLD Concepts",
     "level": "SDE-2",
     "question": "What is eventual consistency? Give a real-world example where it is acceptable vs where it is not."
+  },
+  {
+    "id": "hld_c_011",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a monolith and microservices? What are the main trade-offs of each?"
+  },
+  {
+    "id": "hld_c_012",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "When should you NOT split a monolith into microservices? What problems does it introduce that teams underestimate?"
+  },
+  {
+    "id": "hld_c_013",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a stateless and stateful service? Give an example of each."
+  },
+  {
+    "id": "hld_c_014",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Why do stateless services scale horizontally so easily? What has to change when you make a stateful service stateless?"
+  },
+  {
+    "id": "hld_c_015",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Vertical scaling is simpler but has a ceiling. At what point does horizontal scaling become the only option and what does it require from your architecture?"
+  },
+  {
+    "id": "hld_c_016",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What are the common strategies for decomposing a system into services? What is the difference between decomposing by business capability vs by subdomain?"
+  },
+  {
+    "id": "hld_c_017",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What are the key differences between REST, gRPC, and GraphQL? When would you pick each?"
+  },
+  {
+    "id": "hld_c_018",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How do you estimate QPS for a system? Walk through the back-of-envelope approach."
+  },
+  {
+    "id": "hld_c_019",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How do you estimate storage requirements for a system? What are the key inputs and what do you account for beyond raw data size?"
+  },
+  {
+    "id": "hld_c_020",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is bandwidth estimation? What is the difference between ingress and egress, and why does it matter for cost and architecture?"
+  },
+  {
+    "id": "hld_c_021",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What defines a read-heavy vs write-heavy system? How does it change your architecture decisions around caching, replication, and DB choice?"
+  },
+  {
+    "id": "hld_c_022",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a Layer 4 and Layer 7 load balancer? What can L7 do that L4 cannot, and when would you prefer L4?"
+  },
+  {
+    "id": "hld_c_023",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is round-robin load balancing? What is least-connections? When does round-robin fail?"
+  },
+  {
+    "id": "hld_c_024",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What are virtual nodes in consistent hashing and why are they needed?"
+  },
+  {
+    "id": "hld_c_025",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is auto-scaling? What is the difference between reactive and predictive auto-scaling, and what are the risks of each?"
+  },
+  {
+    "id": "hld_c_026",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "When do you choose SQL over NoSQL and vice versa? What does NoSQL give up and when is that an acceptable trade-off?"
+  },
+  {
+    "id": "hld_c_027",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between OLTP and OLAP? Why do companies maintain separate OLAP systems instead of querying the production DB directly?"
+  },
+  {
+    "id": "hld_c_028",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What does schema design for scale mean? When is denormalization the right call and what do you trade away?"
+  },
+  {
+    "id": "hld_c_029",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a database index? What are the trade-offs of adding more indexes, and when does column order in a composite index matter?"
+  },
+  {
+    "id": "hld_c_030",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a hot shard and how do you prevent it? Which sharding strategy is most likely to cause one?"
+  },
+  {
+    "id": "hld_c_031",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is database replication? What is the difference between leader-follower and multi-leader replication?"
+  },
+  {
+    "id": "hld_c_032",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is replication lag? In which scenarios is it unacceptable, and how do you handle those cases?"
+  },
+  {
+    "id": "hld_c_033",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "CAP says pick two, but network partitions are unavoidable. So is the real choice just CP vs AP? Explain."
+  },
+
+  {
+    "id": "hld_c_034",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How does a CDN decide which edge node to serve a request from? What is the role of DNS in this?"
+  },
+  {
+    "id": "hld_c_035",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is cache invalidation in a CDN? What are your options when you need to update content that is already cached at edge nodes?"
+  },
+  {
+    "id": "hld_c_036",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a push CDN and a pull CDN? When would you use each?"
+  },
+
+  {
+    "id": "hld_c_037",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a sequencer in distributed systems? What problem does it solve?"
+  },
+  {
+    "id": "hld_c_038",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What are the common approaches to generating unique IDs at scale — auto-increment, UUID, Snowflake? What are the trade-offs of each?"
+  },
+  {
+    "id": "hld_c_039",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Twitter's Snowflake ID encodes a timestamp, machine ID, and sequence number. Why is the timestamp useful beyond just uniqueness?"
+  },
+  {
+    "id": "hld_c_040",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Why can't you use a single DB auto-increment column as a sequencer in a distributed system?"
+  },
+
+  {
+    "id": "hld_c_041",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What are the four golden signals of monitoring? What does each tell you about your system?"
+  },
+  {
+    "id": "hld_c_042",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between monitoring and observability? Why is observability harder to achieve?"
+  },
+  {
+    "id": "hld_c_043",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a metric, a log, and a trace? When do you reach for each during an incident?"
+  },
+  {
+    "id": "hld_c_044",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is an SLI, SLO, and SLA? How do they relate to each other and who owns each one?"
+  },
+
+  {
+    "id": "hld_c_045",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a message queue and a pub/sub system? Give a use case where each is the right fit."
+  },
+  {
+    "id": "hld_c_046",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What guarantees does a message queue provide around delivery — at-most-once, at-least-once, exactly-once? What does each mean in practice?"
+  },
+  {
+    "id": "hld_c_047",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a dead letter queue? When does a message end up there and how do you handle it?"
+  },
+  {
+    "id": "hld_c_048",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is message ordering in a queue? Does Kafka guarantee ordering and under what conditions?"
+  },
+  {
+    "id": "hld_c_049",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is backpressure in a message queue system? How do you handle a consumer that is slower than the producer?"
+  },
+
+  {
+    "id": "hld_c_050",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is pub/sub? How does it differ from a point-to-point message queue in terms of routing?"
+  },
+  {
+    "id": "hld_c_051",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "In a pub/sub system, what happens to messages published before a subscriber joins? Does it receive them?"
+  },
+  {
+    "id": "hld_c_052",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a consumer group in Kafka? How does it enable parallel consumption without duplicate processing?"
+  },
+
+  {
+    "id": "hld_c_053",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the difference between a token bucket and a leaky bucket rate limiting algorithm?"
+  },
+  {
+    "id": "hld_c_054",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the sliding window rate limiting algorithm? How does it improve on fixed window and what does it cost?"
+  },
+  {
+    "id": "hld_c_055",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Where do you store rate limit counters — in-process, Redis, or a database? What are the trade-offs?"
+  },
+  {
+    "id": "hld_c_056",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How do you rate limit by user vs by IP vs by API key? When does the choice of identifier matter?"
+  },
+
+  {
+    "id": "hld_c_057",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a blob store? How is it different from a file system or a block storage?"
+  },
+  {
+    "id": "hld_c_058",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How does a blob store like S3 achieve high durability? What is the role of replication and erasure coding?"
+  },
+  {
+    "id": "hld_c_059",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a presigned URL in blob storage? Why is it preferable to proxying file downloads through your own server?"
+  },
+
+  {
+    "id": "hld_c_060",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is distributed search? Why can't you run a search index on a single node at scale?"
+  },
+  {
+    "id": "hld_c_061",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is an inverted index? How does it power full-text search?"
+  },
+  {
+    "id": "hld_c_062",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "How does Elasticsearch shard and replicate data? What is the difference between a primary shard and a replica shard?"
+  },
+
+  {
+    "id": "hld_c_063",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is distributed logging? Why is logging on individual servers insufficient in a microservices architecture?"
+  },
+  {
+    "id": "hld_c_064",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is a correlation ID and how is it used in distributed logging?"
+  },
+  {
+    "id": "hld_c_065",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "What is the ELK stack? What does each component do?"
+  },
+  {
+    "id": "hld_c_066",
+    "subject": "HLD Concepts",
+    "level": "SDE-2",
+    "question": "Logs are high-volume and mostly unread. How do you balance retaining enough logs for debugging without the storage cost spiraling?"
   }
 ]

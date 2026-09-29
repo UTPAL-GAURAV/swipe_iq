@@ -3,60 +3,150 @@
     "id": "hld_s_001",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a URL shortener like bit.ly. Focus on the core components, data model, and how you'd handle 100M URLs."
+    "question": "Your e-commerce backend runs on a single 8-core/32GB server. Black Friday traffic spikes 20x, currently at 90% CPU. You have 2 weeks to prepare. What is your scaling strategy and why?"
   },
   {
     "id": "hld_s_002",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a notification system that needs to send push, email, and SMS to 10M users. How do you ensure delivery and avoid duplicates?"
+    "question": "You are designing a chat app with long-lived WebSocket connections. You add a second server. Which LB algorithm do you use and why? What breaks with Round Robin?"
   },
   {
     "id": "hld_s_003",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a rate limiter that works across a distributed fleet of API servers. How do you keep counters in sync?"
+    "question": "Your read-heavy product listing API hits the DB 50k/sec. You add Redis cache-aside. 3 weeks later hit rate is 12%. What are the possible causes and how do you debug each?"
   },
   {
     "id": "hld_s_004",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a leaderboard for a gaming platform with 50M players. How would you efficiently compute and serve the top 100 in real time?"
+    "question": "Does LRU need TTL? What does each solve?"
   },
   {
     "id": "hld_s_005",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a file storage service like Dropbox. How would you handle large file uploads, sync across devices, and deduplication?"
+    "question": "You are designing storage for a payments system: 10k TPS, must never lose a transaction or show incorrect balance. Which DB type, CAP guarantee, and what does that mean for your design?"
   },
   {
     "id": "hld_s_006",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a chat application like WhatsApp. Focus on message delivery guarantees and how you'd handle offline users."
+    "question": "Order placed triggers: charge payment, send email, update inventory — user should not wait. How do you design this with a message queue? What happens if payment fails after email is already sent?"
   },
   {
     "id": "hld_s_007",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a search autocomplete system. How would you return suggestions in under 100ms for a billion queries per day?"
+    "question": "Is Kafka a message queue? How is it different from RabbitMQ?"
   },
   {
     "id": "hld_s_008",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a payment system. How would you ensure exactly-once processing and handle failures mid-transaction?"
+    "question": "Mobile feed screen needs user profile, last 5 posts, and unread notification count — from 3 separate services. REST requires 3 calls. What is the problem and what are two solutions?"
   },
   {
     "id": "hld_s_009",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design Twitter's home timeline feed. How do you generate and serve a personalized feed for 500M users?"
+    "question": "Your monolith checkout service now handles 10x more traffic than everything else. Team wants to break into microservices. What questions do you ask first, and how do you do the migration safely?"
   },
   {
     "id": "hld_s_010",
     "subject": "HLD Scenarios",
     "level": "SDE-2",
-    "question": "Design a distributed job scheduler. How would you handle retries, deduplication, and priority queues at scale?"
+    "question": "When do you pick Kafka over RabbitMQ and vice versa?"
+  },
+  {
+    "id": "hld_s_011",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A YouTube-like platform needs to store user-uploaded videos up to 50GB, transcode them to multiple resolutions, and stream to millions globally. What storage components do you use and why?"
+  },
+  {
+    "id": "hld_s_012",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A viral post receives 100k likes/sec. Do you use strong or eventual consistency for the like count? What are the failure modes of your choice?"
+  },
+  {
+    "id": "hld_s_013",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Analytics dashboard needs real-time revenue, top products, orders by region. Main orders DB is Postgres at 50k writes/sec. Running queries directly on it is killing performance. How do you architect this?"
+  },
+  {
+    "id": "hld_s_014",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A URL shortener needs to generate unique short codes for 100M URLs. What are your options for ID generation and what are the trade-offs of each?"
+  },
+  {
+    "id": "hld_s_015",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A notification system must send to 10M users without duplicates. How do you guarantee exactly-once delivery across push, email, and SMS?"
+  },
+  {
+    "id": "hld_s_016",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "You need a rate limiter that works across a fleet of API servers. Why doesn't a local in-memory counter work, and what are your distributed options?"
+  },
+  {
+    "id": "hld_s_017",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A leaderboard needs to serve the top 100 out of 50M players in real time. Why is a relational ORDER BY query not enough, and what data structure would you use?"
+  },
+  {
+    "id": "hld_s_018",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A file storage service needs to detect duplicate uploads without comparing raw bytes. What technique would you use and how does it work?"
+  },
+  {
+    "id": "hld_s_019",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "In a chat system, a user goes offline mid-conversation. How do you ensure they receive missed messages when they come back online?"
+  },
+  {
+    "id": "hld_s_020",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Search autocomplete must return suggestions in under 100ms for billions of queries. What data structure powers the prefix lookup and where does caching fit?"
+  },
+  {
+    "id": "hld_s_021",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A payment service crashes after debiting the user but before crediting the merchant. How do you detect and recover from this without double-charging?"
+  },
+  {
+    "id": "hld_s_022",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Twitter has two feed strategies: fan-out on write and fan-out on read. What are the trade-offs and which users would you apply each strategy to?"
+  },
+  {
+    "id": "hld_s_023",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "A distributed job scheduler must not run the same job twice even if two nodes pick it up simultaneously. How do you enforce this?"
+  },
+  {
+    "id": "hld_s_024",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Your service calls three downstream APIs and one is slow. How do you prevent that slowness from cascading and taking down your own service?"
+  },
+  {
+    "id": "hld_s_025",
+    "subject": "HLD Scenarios",
+    "level": "SDE-2",
+    "question": "Two users try to book the last seat on a flight at the same time. How do you ensure only one succeeds without locking the entire flights table?"
   }
 ]

@@ -36,5 +36,7 @@ flutter:
     - assets/questions/spring_boot.json
     - assets/questions/hld_concepts.json
     - assets/questions/hld_scenarios.json
+    - assets/questions/lld.json
+    - assets/questions/lld_scenarios.json
     - assets/service_account.json
     - .env

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const kAllSubjects = ['Java', 'Java Advanced', 'Spring Boot', 'HLD Concepts', 'HLD Scenarios'];
+const kAllSubjects = ['Java', 'Java Advanced', 'Spring Boot', 'HLD Concepts', 'HLD Scenarios', 'LLD', 'LLD Scenarios'];
 
 const _kThemeKey = 'theme_mode';
 const _kSubjectsKey = 'selected_subjects';

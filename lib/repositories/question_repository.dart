@@ -10,6 +10,8 @@ class QuestionRepository {
     'Spring Boot': 'assets/questions/spring_boot.json',
     'HLD Concepts': 'assets/questions/hld_concepts.json',
     'HLD Scenarios': 'assets/questions/hld_scenarios.json',
+    'LLD': 'assets/questions/lld.json',
+    'LLD Scenarios': 'assets/questions/lld_scenarios.json',
   };
 
   final _random = Random();

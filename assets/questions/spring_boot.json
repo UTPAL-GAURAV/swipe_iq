@@ -70,5 +70,155 @@
     "subject": "Spring Boot",
     "level": "SDE-2",
     "question": "Design a REST API for a social feed that returns 20 posts with the top 3 comments each. How do you model the database and what does the response look like?"
+  },
+  {
+    "id": "sb_013",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What are the advantages of using Spring Boot over plain Spring?"
+  },
+  {
+    "id": "sb_014",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What does the @SpringBootApplication annotation do internally? What three annotations does it combine?"
+  },
+  {
+    "id": "sb_015",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the purpose of @ComponentScan? What happens if you put your main class in the wrong package?"
+  },
+  {
+    "id": "sb_016",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How does a Spring Boot application get started? What happens step by step when you call SpringApplication.run()?"
+  },
+  {
+    "id": "sb_017",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is an IOC container? What is the difference between BeanFactory and ApplicationContext?"
+  },
+  {
+    "id": "sb_018",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is dependency injection and what problem does it solve?"
+  },
+  {
+    "id": "sb_019",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Where do you define properties in a Spring Boot application? What is the order of precedence when the same property is defined in multiple places?"
+  },
+  {
+    "id": "sb_020",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How do you enable debug logging in Spring Boot? What is the difference between setting logging.level and enabling debug mode?"
+  },
+  {
+    "id": "sb_021",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Can you override or replace the embedded Tomcat server in Spring Boot? How would you switch to Jetty or Undertow?"
+  },
+  {
+    "id": "sb_022",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is Spring Boot dependency management? How does the parent POM help you avoid version conflicts?"
+  },
+  {
+    "id": "sb_023",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "How do you disable a specific auto-configuration class in Spring Boot?"
+  },
+  {
+    "id": "sb_024",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Describe the flow of an HTTP request through a Spring Boot application from the moment it hits the server."
+  },
+  {
+    "id": "sb_025",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the difference between @RequestMapping and @GetMapping?"
+  },
+  {
+    "id": "sb_026",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the difference between @RequestParam, @PathVariable, and @RequestBody?"
+  },
+  {
+    "id": "sb_027",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Why is @Repository important beyond being a marker annotation? What does it add at runtime?"
+  },
+  {
+    "id": "sb_028",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the difference between @Bean and @Component? When would you use one over the other?"
+  },
+  {
+    "id": "sb_029",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is @Configuration and what problem does it solve? How is it different from a regular @Component class?"
+  },
+  {
+    "id": "sb_030",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What are common reasons for slow Spring Boot application startup and how do you diagnose them?"
+  },
+  {
+    "id": "sb_031",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Why does field injection cause testing and immutability issues? Why is constructor injection preferred?"
+  },
+  {
+    "id": "sb_032",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What causes circular dependency errors in Spring Boot and how do you fix them?"
+  },
+  {
+    "id": "sb_033",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Why does @Transactional sometimes not work in Spring Boot? Name at least two common reasons."
+  },
+  {
+    "id": "sb_034",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the difference between application.properties and bootstrap.properties? When is bootstrap.properties loaded?"
+  },
+  {
+    "id": "sb_035",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Why does LazyInitializationException occur in Spring Boot and how do you fix it?"
+  },
+  {
+    "id": "sb_036",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "What is the role of @ConfigurationProperties in Spring Boot? How does it differ from @Value?"
+  },
+  {
+    "id": "sb_037",
+    "subject": "Spring Boot",
+    "level": "SDE-2",
+    "question": "Why is spring.jpa.hibernate.ddl-auto=update not recommended in production?"
   }
 ]

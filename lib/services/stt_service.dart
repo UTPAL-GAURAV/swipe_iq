@@ -66,7 +66,7 @@ class SttService {
 
         final pollResponse = await client
             .get(Uri.parse('https://speech.googleapis.com/v1/operations/$opName'))
-            .timeout(const Duration(seconds: 15));
+            .timeout(const Duration(seconds: 60));
 
         if (pollResponse.statusCode != 200) {
           throw Exception('STT poll error: ${pollResponse.statusCode} ${pollResponse.body}');
@@ -83,7 +83,12 @@ class SttService {
         if (results == null || results.isEmpty) return '';
 
         return results
-            .map((r) => (r['alternatives'] as List).first['transcript'] as String)
+            .map((r) {
+              final alternatives = r['alternatives'] as List?;
+              if (alternatives == null || alternatives.isEmpty) return '';
+              return (alternatives.first['transcript'] as String?) ?? '';
+            })
+            .where((t) => t.isNotEmpty)
             .join(' ')
             .trim();
       }

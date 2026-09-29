@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lld_s_001",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "You have a ReportGenerator class with if/else on type strings (PDF, Excel, CSV). Team needs to add HTML. Which SOLID principle is violated and how do you fix it?"
+  },
+  {
+    "id": "lld_s_002",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Penguin extends Bird. fly() throws UnsupportedOperationException. Which principle is violated? Redesign it."
+  },
+  {
+    "id": "lld_s_003",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Animal interface has eat(), fly(), swim(), run(). Dog implements it with empty stubs for fly() and swim(). Which principle is violated and how do you fix it?"
+  },
+  {
+    "id": "lld_s_004",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "PaymentService directly instantiates StripeGateway. Product wants PayPal support and mock payments in tests. What's the SOLID violation and fix?"
+  },
+  {
+    "id": "lld_s_005",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Your Singleton ConfigManager is used across 50 threads. Occasionally different threads see different instances. What's wrong and how do you fix it?"
+  },
+  {
+    "id": "lld_s_006",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "NotificationFactory has a switch on type strings. Product wants to add WhatsApp. Junior says add a case. What's the problem at scale and how do you redesign?"
+  },
+  {
+    "id": "lld_s_007",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "You have UPI, CreditCard, Crypto payment types each with pay(). Should you use Factory or Strategy — and can you use both?"
+  },
+  {
+    "id": "lld_s_008",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "You're building an HttpRequest object with url and method required, and headers, body, timeout, retries optional. Why is a constructor a bad fit here and how does Builder solve it?"
+  },
+  {
+    "id": "lld_s_009",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "You have OrderService wired to a PaymentGateway interface. You need to add PayPal but its SDK has a completely different method signature. You can't touch OrderService or the SDK. What do you do?"
+  },
+  {
+    "id": "lld_s_010",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Pizza has 5 base types and 4 toppings. Teammate wants a subclass per combination. What's wrong and what's your fix?"
+  },
+  {
+    "id": "lld_s_011",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Your TransportService uses constructor injection for TransportMode. Can it switch from DrivingMode to CyclingMode without being re-created? How would you redesign if switching mid-flight is a requirement?"
+  },
+  {
+    "id": "lld_s_012",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "An order placement triggers email, inventory update, warehouse notification, and analytics logging. When do you use an Orchestrator vs Observer pattern for this?"
+  },
+  {
+    "id": "lld_s_013",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Two threads call findAndAssignSpot() simultaneously on a ParkingLot. Both see spot #42 available and assign to it. How do you fix this and where does notifyAll() go?"
+  },
+  {
+    "id": "lld_s_014",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "You have a logging service called directly by 10 classes. Every class imports and instantiates it. How does this violate DIP and how do you fix it?"
+  },
+  {
+    "id": "lld_s_015",
+    "subject": "LLD Scenarios",
+    "level": "SDE-2",
+    "question": "Your EmailService, SMSService, and PushService all have a send() method but no shared interface. A new teammate adds a fourth channel and copies the pattern. What's the design problem and how do you fix it?"
+  }
+]

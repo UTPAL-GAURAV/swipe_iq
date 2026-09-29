@@ -1,0 +1,128 @@
+[
+  {
+    "id": "lld_001",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Single Responsibility Principle? Why does a class that both validates and persists data violate it?"
+  },
+  {
+    "id": "lld_002",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Open/Closed Principle? What does open for extension but closed for modification actually mean?"
+  },
+  {
+    "id": "lld_003",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Liskov Substitution Principle? State it precisely — not just 'subclass should behave like parent'."
+  },
+  {
+    "id": "lld_004",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "LSP and ISP both seem to be about a class implementing something it shouldn't. What's the actual difference?"
+  },
+  {
+    "id": "lld_005",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Can an interface violate LSP? Explain."
+  },
+  {
+    "id": "lld_006",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Dependency Inversion Principle? How is it different from just using dependency injection?"
+  },
+  {
+    "id": "lld_007",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "When do you use a base class vs an interface? Give a real example."
+  },
+  {
+    "id": "lld_008",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Explain the Singleton pattern. What are its drawbacks and when should you avoid it?"
+  },
+  {
+    "id": "lld_009",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What do you lock on in a static synchronized block, and why can't you use 'this'?"
+  },
+  {
+    "id": "lld_010",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Factory Method pattern? How does it differ from Abstract Factory?"
+  },
+  {
+    "id": "lld_011",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Builder pattern: why must each setter return 'this' and not void?"
+  },
+  {
+    "id": "lld_012",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Adapter pattern? What's the difference between a class adapter and an object adapter?"
+  },
+  {
+    "id": "lld_013",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Why must a Decorator implement the same interface as the class it wraps? And why must it accept the interface, not the concrete class?"
+  },
+  {
+    "id": "lld_014",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Explain the Strategy pattern. How does it eliminate if-else chains?"
+  },
+  {
+    "id": "lld_015",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the Observer pattern? What are its risks — when can it cause memory leaks or unexpected behavior?"
+  },
+  {
+    "id": "lld_016",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "Observer decouples producers from consumers. What do you gain and what do you lose?"
+  },
+  {
+    "id": "lld_017",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "How does Strategy differ from Decorator even though both wrap behavior? Give a one-line scenario for each."
+  },
+  {
+    "id": "lld_018",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "How do Factory and Builder both follow SRP, and what distinct responsibility does each own?"
+  },
+  {
+    "id": "lld_019",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is the difference between a creational, structural, and behavioral pattern? Classify Factory, Adapter, and Strategy."
+  },
+  {
+    "id": "lld_020",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "What is cohesion and coupling? Give one example of a class with low cohesion and explain how to fix it."
+  },
+  {
+    "id": "lld_021",
+    "subject": "LLD",
+    "level": "SDE-2",
+    "question": "When should you use a design pattern vs just writing straightforward code? What's the risk of over-applying patterns?"
+  }
+]
